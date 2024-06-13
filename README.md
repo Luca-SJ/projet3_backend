@@ -13,9 +13,9 @@ Pour pouvoir utiliser le back-end, veuillez suivre les étapes suivantes :
 5) Rendez-vous dans "src/main/ressources/" puis ouvrez "application.properties".
    
 6) Remplacez ces 3 lignes par les valeurs correspondantes à votre base de données :
-   spring.datasource.url=jdbc:mysql://localhost:3306/projet3
-   spring.datasource.username=root
-   spring.datasource.password=root
+   - spring.datasource.url=jdbc:mysql://localhost:3306/projet3
+   - spring.datasource.username=root
+   - spring.datasource.password=root
    
 7) Rendez-vous dans "src/main/java/" puis lancez le projet en démarrant "DemoApplication".
    
