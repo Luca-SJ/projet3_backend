@@ -4,7 +4,9 @@ Pour pouvoir utiliser le back-end, veuillez suivre les étapes suivantes :
 
 1) Récupérez le code mon back-end en le téléchargeant ou en faisant un git clone.
    
-3) Installez la base de données sur votre machine (le script se trouve à la racine et s'apelle "bdd.sql").
+3) Installez la base de données sur votre machine, pour ce faire :
+   - Créez une base de données nommée "projet3".
+   - Exécutez le script "bdd.sql" (Qui se trouve à la racine du projet).
    
 4) Lancer le projet back-end dans votre IDE.
    
