@@ -25,7 +25,10 @@ public class UserController {
 
     @GetMapping("/user*/{id}")
     public User getUserByID(@PathVariable(value = "id") Long UserID) throws ResourceNotFoundException {
-        return userService.findByID(UserID);
+        User user = userService.findByID(UserID);
+        user.setPassword(null);
+
+        return user;
     }
 
     @DeleteMapping("/user/{id}")
