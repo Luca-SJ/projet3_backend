@@ -39,6 +39,7 @@ public class AuthController {
         return token;
     }*/
 
+
     @PostMapping ("/auth/register")
     public ResponseEntity<Map<String, String>> register(@RequestBody User user) {
         Authentication authentication = new UsernamePasswordAuthenticationToken(user.getEmail(), user.getPassword());
