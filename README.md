@@ -23,4 +23,6 @@ Pour pouvoir utiliser le back-end, veuillez suivre les étapes suivantes :
 
 9) Cliquez sur "Register" puis enregistrez-vous.
 
-10) Félicitation, vous avez terminé !
+10) Vous pouvez vous rendre ici : http://localhost:3001/swagger-ui/index.html pour avoir la documentation de l'api (via Swagger)
+
+11) Félicitation, vous avez terminé !
